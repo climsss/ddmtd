@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/definitions/definitions.rpy", line 1420: is not terminated with a newline. (Check strings and parenthesis.)
+    define s = DynamicCharacter('s_name', image='sayori', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed" 
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Tue Jun  4 15:24:01 2024

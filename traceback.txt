@@ -1,0 +1,100 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+  File "game/screens/preferences.rpy", line 9, in prepare_screen
+    screen preferences():
+  File "game/screens/preferences.rpy", line 9, in prepare
+    screen preferences():
+  File "game/screens/preferences.rpy", line 18, in prepare
+    use game_menu(_("Настройки"), scroll="viewport"):
+  File "game/screens/preferences.rpy", line 18, in prepare
+    use game_menu(_("Настройки"), scroll="viewport"):
+  File "game/screens/preferences.rpy", line 20, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 20, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 47, in prepare
+    hbox:
+  File "game/screens/preferences.rpy", line 47, in prepare
+    hbox:
+  File "game/screens/preferences.rpy", line 64, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 64, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 74, in prepare
+    if config.has_sound:
+  File "game/screens/preferences.rpy", line 74, in prepare
+    if config.has_sound:
+  File "game/screens/preferences.rpy", line 78, in prepare
+    hbox:
+  File "game/screens/preferences.rpy", line 78, in prepare
+    hbox:
+  File "game/screens/preferences.rpy", line 79, in prepare
+    bar value Preference("Громкость музыки")
+  File "game/screens/preferences.rpy", line 79, in prepare
+    bar value Preference("Громкость музыки")
+  File "game/screens/preferences.rpy", line 79, in <module>
+    bar value Preference("Громкость музыки")
+  File "renpy/common/00preferences.rpy", line 651, in Preference
+    rv = get()
+  File "renpy/common/00preferences.rpy", line 649, in get
+    raise Exception("Preference(%r, %r) is unknown." % (name , value))
+Exception: Preference('громкость музыки', None) is unknown.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "E:\renpy\renpy-8.2.1-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "E:\renpy\renpy-8.2.1-sdk\renpy\main.py", line 635, in main
+    run(restart)
+  File "E:\renpy\renpy-8.2.1-sdk\renpy\main.py", line 94, in run
+    renpy.display.screen.prepare_screens()
+  File "E:\renpy\renpy-8.2.1-sdk\renpy\display\screen.py", line 1026, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/screens/preferences.rpy", line 9, in prepare_screen
+    screen preferences():
+  File "game/screens/preferences.rpy", line 9, in prepare
+    screen preferences():
+  File "game/screens/preferences.rpy", line 18, in prepare
+    use game_menu(_("Настройки"), scroll="viewport"):
+  File "game/screens/preferences.rpy", line 18, in prepare
+    use game_menu(_("Настройки"), scroll="viewport"):
+  File "game/screens/preferences.rpy", line 20, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 20, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 47, in prepare
+    hbox:
+  File "game/screens/preferences.rpy", line 47, in prepare
+    hbox:
+  File "game/screens/preferences.rpy", line 64, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 64, in prepare
+    vbox:
+  File "game/screens/preferences.rpy", line 74, in prepare
+    if config.has_sound:
+  File "game/screens/preferences.rpy", line 74, in prepare
+    if config.has_sound:
+  File "game/screens/preferences.rpy", line 78, in prepare
+    hbox:
+  File "game/screens/preferences.rpy", line 78, in prepare
+    hbox:
+  File "game/screens/preferences.rpy", line 79, in prepare
+    bar value Preference("Громкость музыки")
+  File "game/screens/preferences.rpy", line 79, in prepare
+    bar value Preference("Громкость музыки")
+  File "E:\renpy\renpy-8.2.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/screens/preferences.rpy", line 79, in <module>
+    bar value Preference("Громкость музыки")
+  File "renpy/common/00preferences.rpy", line 651, in Preference
+    rv = get()
+  File "renpy/common/00preferences.rpy", line 649, in get
+    raise Exception("Preference(%r, %r) is unknown." % (name , value))
+Exception: Preference('громкость музыки', None) is unknown.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.1.24030407
+DDLC: Than A Dream 1.0
+Sun Jun  2 15:02:41 2024
